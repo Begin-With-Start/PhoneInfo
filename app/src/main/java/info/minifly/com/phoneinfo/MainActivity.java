@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     public void initViews(){
         infoTxt = (TextView)findViewById(R.id.info_txt);
 
-
+        //第一次提交就成功了，很尴尬
         infoTxt.setText(getDeviceInfo());
     }
 
